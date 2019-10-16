@@ -26,3 +26,12 @@ dtb-$(CONFIG_ARCH_MXC) += imx8mq-librem5-devkit.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-zii-ultra-rmb3.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-zii-ultra-zest.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8qxp-mek.dtb
+
+dtb-$(CONFIG_ARCH_MXC) += \
+	imx8mq-nitrogen8m.dts \
+	imx8mq-nitrogen8m-m4.dts \
+	imx8mq-nitrogen8m_som.dts
+dtb-$(CONFIG_ARCH_MXC) += \
+	imx8mm-nitrogen8mm.dts \
+	imx8mm-nitrogen8mm-m4.dts \
+	imx8mm-nitrogen8mm_som.dts
